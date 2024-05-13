@@ -28,13 +28,6 @@ const SettingsPage = () => {
                     description="A simple theme with bright colors."
                 />
                 <ThemeInfo
-                    name="Ayu Mirage"
-                    icon="/ayu.png"
-                    publisher="teabyii"
-                    theme="ayu-mirage"
-                    description="A simple theme with bright colors."
-                />
-                <ThemeInfo
                     name="Nord"
                     icon="/nord.png"
                     publisher="arcticicestudio"

@@ -1,11 +1,15 @@
 import ProjectCard from "../components/ProjectCard";
-import { getProjects } from "./api/projects";
 import styles from "../styles/ProjectsPage.module.css";
+import { getProjects } from "./api/projects";
 
 const ProjectsPage = ({ projects }) => {
     return (
         <>
-            <h3>Projects I've Built So Far</h3>
+            <h2>
+                <a target="_blank" rel="noopener" className={styles.underline}>
+                    Projects I've Built
+                </a>
+            </h2>
             <div className={styles.container}>
                 {projects.map((project) => (
                     <ProjectCard key={project.id} project={project} />

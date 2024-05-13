@@ -18,6 +18,11 @@ const contactItems = [
         href: "https://www.linkedin.com/in/shanmukhanaparthi/",
     },
     {
+        social: "telegram",
+        link: "shanmukhx",
+        href: "https://t.me/shanmukhx",
+    },
+    {
         social: "twitter",
         link: "shanmukh_X",
         href: "https://www.twitter.com/shanmukh_X",
@@ -26,11 +31,6 @@ const contactItems = [
         social: "instagram",
         link: "shanmukhx",
         href: "https://www.instagram.com/shanmukhx",
-    },
-    {
-        social: "telegram",
-        link: "shanmukhx",
-        href: "https://t.me/shanmukhx",
     },
     {
         social: "portfolio v2",

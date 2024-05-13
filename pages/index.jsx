@@ -6,10 +6,10 @@ import styles from "../styles/HomePage.module.css";
 export default function HomePage() {
     const [professionIndex, setProfessionIndex] = useState(0);
     const professions = [
-        "Full Stack Developer",
         "DevOps Engineer",
-        "Hackerearth Campus Ambassador",
+        "Full Stack Developer",
         "Google Developer Club Leader",
+        "Hackerearth Campus Ambassador",
     ];
 
     useEffect(() => {

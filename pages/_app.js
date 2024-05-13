@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import Layout from "../components/Layout";
+import { useEffect } from "react";
 import Head from "../components/Head";
+import Layout from "../components/Layout";
 import "../styles/globals.css";
 import "../styles/themes.css";
 
@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
 
     return (
         <Layout>
-            <Head title={`Shanmukh Anaparthi | ${pageProps.title}`} />
+            <Head title={`A. Shanmukh | ${pageProps.title}`} />
             <Component {...pageProps} />
         </Layout>
     );
