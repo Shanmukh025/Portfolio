@@ -1,32 +1,54 @@
 .code {
-  counter-reset: line;
-  font-size: 1.2rem;
-  line-height: 2rem;
+    counter-reset: line;
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 
 .line::before {
-  content: counter(line);
-  counter-increment: line;
-  margin-right: 1rem;
-  color: grey;
+    content: counter(line);
+    counter-increment: line;
+    margin-right: 1rem;
+    color: grey;
 }
 
 .code a {
-  color: var(--accent-color);
-  text-decoration: none;
+    color: var(--accent-color);
+    text-decoration: none;
 }
 
 .code a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .className {
-  color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.underline {
+    padding: 0.2rem 0;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(
+        120deg,
+        black 100%,
+        var(--accent-color) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+
+.underline:hover {
+    background-size: 100% 88%;
 }
 
 @media screen and (max-width: 600px) {
-  .code {
-    font-size: 0.85rem;
-    line-height: 1.5rem;
-  }
+    .code {
+        font-size: 0.85rem;
+        line-height: 1.5rem;
+    }
 }

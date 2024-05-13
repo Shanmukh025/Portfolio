@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "../styles/ContactCode.module.css";
 
 const contactItems = [
@@ -44,19 +45,15 @@ const ContactCode = () => {
             <p className={styles.line}>
                 <span className={styles.className}>.socials</span> &#123;
             </p>
-            {contactItems.slice(0, 8).map((item, index) => (
+            {contactItems.map((item, index) => (
                 <p className={styles.line} key={index}>
                     &nbsp;&nbsp;&nbsp;{item.social}:{" "}
-                    <a href={item.href} target="_blank" rel="noopener">
-                        {item.link}
-                    </a>
-                    ;
-                </p>
-            ))}
-            {contactItems.slice(8, contactItems.length).map((item, index) => (
-                <p className={styles.line} key={index}>
-                    &nbsp;&nbsp;{item.social}:{" "}
-                    <a href={item.href} target="_blank" rel="noopener">
+                    <a
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.underline}
+                    >
                         {item.link}
                     </a>
                     ;
