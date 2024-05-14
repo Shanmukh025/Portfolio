@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Netflix Clone",
-    "image": "https://imgur.com/tAZotn3.png",
+    "image": "https://imgur.com/sPFSEq4.gif",
     "description": "A Real-Time Netflix clone using ReactJS.",
     "tags": ["react", "javascript", "css-modules", "material-ui"],
     "source_code": "https://github.com/Shanmukh025/Netflix",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "GDSC KL University",
-    "image": "https://imgur.com/8FFqaX8.png",
+    "image": "https://imgur.com/oM4SCYe.gif",
     "description": "I designed and developed the Official Website for GDSC KL University.",
     "tags": ["react", "javascript", "css-modules", "material-ui"],
     "source_code": "https://github.com/Shanmukh/GDSCWebsite",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Fuse NFT Marketplace",
-    "image": "https://imgur.com/mKkz0iz.png",
+    "image": "https://imgur.com/MADWfUq.gif",
     "description": "A Real-Time NFT Marketplace using BlockChain Technology.",
     "tags": ["react", "express", "blockchain", "solidity"],
     "source_code": "https://github.com/Shanmukh025/FuseNFT",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "Password Generator",
-    "image": "https://imgur.com/1Z2Z9Zz.png",
+    "image": "https://imgur.com/OB9GMzm.gif",
     "description": "A Strong and Random Password Generator using ReactJS.",
     "tags": ["react", "css-modules", "material-ui"],
     "source_code": "https://github.com/Shanmukh025/PassGen",
@@ -47,10 +47,19 @@
   {
     "id": 5,
     "name": "Portfolio v2",
-    "image": "https://imgur.com/1Z2Z9Zz.png",
+    "image": "https://imgur.com/UdkO2aP.gif",
     "description": "My Portfolio v2 using Django and Python.",
     "tags": ["python", "django", "css-modules", "material-ui"],
     "source_code": "https://github.com/Shanmukh025/PortfolioWebsite",
     "demo": "https://shanmukhanaparthi.pythonanywhere.com/"
+  },
+  {
+    "id": 6,
+    "name": "Unified Loan System",
+    "image": "https://imgur.com/I4R8a0I.gif",
+    "description": "An Unified Loan Management System using Django and Python.",
+    "tags": ["python", "django", "css-modules", "material-ui"],
+    "source_code": "https://github.com/Shanmukh025/MPBSystem",
+    "demo": "https://shanmukh04.pythonanywhere.com/"
   }
 ]
