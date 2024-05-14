@@ -37,7 +37,11 @@ const ProjectCard = ({ project }) => {
                         rel="noopener noreferrer"
                         className={styles.underline}
                     >
-                        Live Demo
+                        Visit
+                        <img
+                            src="https://cdn-icons-png.flaticon.com/256/2926/2926153.png"
+                            height={12}
+                        />
                     </a>
                 </div>
             </div>
