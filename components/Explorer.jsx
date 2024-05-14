@@ -42,7 +42,7 @@ const Explorer = () => {
 
     return (
         <div className={styles.explorer}>
-            <p className={styles.title}>File Explorer</p>
+            <h2 className={styles.title}>Shanmukh Anaparthi</h2>
             <div>
                 <input
                     type="checkbox"
