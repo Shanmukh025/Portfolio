@@ -8,10 +8,11 @@ function Illustration(props) {
             outlineOffset: "calc(-1*var(--s))",
             background:
                 "conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0)",
-            width: "90%", // decreased image width
+            width: "85%", // decreased image width
+            marginTop: "10px",
         },
         body: {
-            height: "100vh",
+            margin: "5px",
             display: "grid",
             placeContent: "center",
         },
