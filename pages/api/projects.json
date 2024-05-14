@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Spark Social Media",
     "image": "https://imgur.com/kbGs6zH.png",
-    "description": "A Social Media App for interacting to showcase their projects",
+    "description": "A Social Media App for interacting to showcase their projects.",
     "tags": ["react", "node", "mongodb", "redux", "material-ui"],
     "source_code": "https://github.com/Shanmukh025/spark",
     "demo": "https://xspark.vercel.app/"
@@ -12,8 +12,8 @@
     "id": 2,
     "name": "Netflix Clone",
     "image": "https://imgur.com/tAZotn3.png",
-    "description": "A Real-Time Netflix clone using ReactJS",
-    "tags": ["react", "node", "css-modules", "material-ui"],
+    "description": "A Real-Time Netflix clone using ReactJS.",
+    "tags": ["react", "javascript", "css-modules", "material-ui"],
     "source_code": "https://github.com/Shanmukh025/Netflix",
     "demo": "https://net-flixclone.surge.sh/"
   },
