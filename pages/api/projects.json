@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Spark Social Media",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "A Social Media App for interacting to showcase their projects.",
+    "image": "https://imgur.com/ae1LOyl.gif",
+    "description": "A Social Media App for interacting with posts and messaging friends.",
     "tags": ["react", "node", "mongodb", "redux", "material-ui"],
     "source_code": "https://github.com/Shanmukh025/spark",
     "demo": "https://xspark.vercel.app/"

@@ -24,7 +24,7 @@ const GithubPage = ({ repos, user }) => {
                     {/* <h3 className={styles.username}>{user.login}</h3> */}
                 </div>
                 <div>
-                    <h3>{user.public_repos}A Little Bit About Myself</h3>
+                    <h3>{user.public_repos}A Little Bit About Myself...</h3>
                 </div>
                 {/* <div>
                     <h3>{user.followers} </h3>
