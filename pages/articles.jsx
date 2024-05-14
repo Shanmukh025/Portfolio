@@ -4,7 +4,6 @@ const ArticlesPage = ({ articles }) => {
     return (
         <>
             <h2>
-                {" "}
                 <a target="_blank" rel="noopener" className={styles.underline}>
                     Where I've Worked?
                 </a>

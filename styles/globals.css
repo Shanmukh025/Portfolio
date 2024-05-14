@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 *,
 *::before,
 *::after {
@@ -51,10 +50,10 @@
     background: rgba(25, 118, 210, 0.25);
 }
 
-.bulma {
+.solidity {
     border: 0.1rem solid rgb(0, 209, 178);
 }
-.bulma:hover {
+.solidity:hover {
     background: rgb(0, 209, 178, 0.25);
 }
 
@@ -90,5 +89,30 @@
     border: 0.1rem solid rgb(131, 205, 41);
 }
 .javascript:hover {
+    background: rgba(131, 205, 41, 0.25);
+}
+
+.express {
+    border: 0.1rem solid rgb(131, 205, 41);
+}
+.express:hover {
+    background: rgba(131, 205, 41, 0.25);
+}
+.blockchain {
+    border: 0.1rem solid rgb(0, 209, 178);
+}
+.blockchain:hover {
+    background: rgb(0, 209, 178, 0.25);
+}
+.python {
+    border: 0.1rem solid rgb(82, 143, 240);
+}
+.python:hover {
+    background: rgba(82, 143, 240, 0.25);
+}
+.django {
+    border: 0.1rem solid rgb(131, 205, 41);
+}
+.django:hover {
     background: rgba(131, 205, 41, 0.25);
 }

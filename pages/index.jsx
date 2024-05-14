@@ -5,11 +5,7 @@ import styles from "../styles/HomePage.module.css";
 
 export default function HomePage() {
     const [professionIndex, setProfessionIndex] = useState(0);
-    const professions = [
-        "Full-Stack Developer",
-        "Google Developer Club Leader",
-        "Hackerearth Campus Ambassador",
-    ];
+    const professions = ["Full-Stack Developer", "Google Dev. Club Leader"];
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -31,9 +27,9 @@ export default function HomePage() {
                 <div className={styles.foreground}>
                     <div className={styles.content}>
                         <h1 className={styles.name}>Shanmukh Anaparthi</h1>
-                        <h6 className={styles.bio}>
+                        <h3 className={styles.bio}>
                             {professions[professionIndex]}
-                        </h6>
+                        </h3>
                         <Link href="/projects">
                             <button className={styles.button}>View Work</button>
                         </Link>

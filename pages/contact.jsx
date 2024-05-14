@@ -29,7 +29,7 @@ const ContactPage = () => {
     return (
         <div className={styles.container}>
             <div>
-                <h3 className={styles.heading}>Reach Out Via Socials</h3>
+                <h3 className={styles.heading}>Reach Out Via...</h3>
                 <ContactCode />
             </div>
             <div>

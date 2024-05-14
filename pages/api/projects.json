@@ -19,29 +19,38 @@
   },
   {
     "id": 3,
-    "name": "HealthyWays",
+    "name": "GDSC KL University",
     "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "description": "I designed and developed the Official Website for GDSC KL University.",
+    "tags": ["react", "javascript", "css-modules", "material-ui"],
+    "source_code": "https://github.com/Shanmukh/GDSCWebsite",
+    "demo": "https://gdscklef.netlify.app/"
   },
   {
     "id": 4,
-    "name": "VSCode Portfolio",
+    "name": "Fuse NFT Marketplace",
     "image": "https://imgur.com/mKkz0iz.png",
-    "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "description": "A Real-Time NFT Marketplace using BlockChain Technology.",
+    "tags": ["react", "express", "blockchain", "solidity"],
+    "source_code": "https://github.com/Shanmukh025/FuseNFT",
+    "demo": "https://fusenft.netlify.app/"
   },
   {
     "id": 5,
-    "name": "Covid-19 Tracker",
+    "name": "Password Generator",
     "image": "https://imgur.com/1Z2Z9Zz.png",
-    "description": "A Real-Time Covid-19 tracker using ReactJS",
+    "description": "A Strong and Random Password Generator using ReactJS.",
     "tags": ["react", "css-modules", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "source_code": "https://github.com/Shanmukh025/PassGen",
+    "demo": "https://shanmukh025.github.io/PassGen/"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio v2",
+    "image": "https://imgur.com/1Z2Z9Zz.png",
+    "description": "My Portfolio v2 using Django and Python.",
+    "tags": ["python", "django", "css-modules", "material-ui"],
+    "source_code": "https://github.com/Shanmukh025/PortfolioWebsite",
+    "demo": "https://shanmukhanaparthi.pythonanywhere.com/"
   }
 ]

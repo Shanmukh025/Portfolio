@@ -63,7 +63,7 @@
     margin-bottom: 1.5rem;
 }
 
-.underline {
+.underlinex {
     padding: 0.2rem 0;
     font-size: 0.9rem;
     letter-spacing: 0;
@@ -81,7 +81,7 @@
     transition: background-size 0.25s ease-in;
 }
 
-.underline:hover {
+.underlinex:hover {
     background-size: 100% 88%;
 }
 
