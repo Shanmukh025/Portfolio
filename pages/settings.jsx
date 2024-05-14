@@ -7,18 +7,18 @@ const SettingsPage = () => {
             <h2>Change Theme</h2>
             <div className={styles.container}>
                 <ThemeInfo
-                    name="Dracula"
-                    icon="/dracula.png"
-                    publisher="Dracula Theme"
-                    theme="dracula"
-                    description="Official Dracula Theme. A dark theme for many editors, shells, and more."
-                />
-                <ThemeInfo
                     name="GitHub Dark"
                     icon="/github-dark.png"
                     publisher="GitHub"
                     theme="github-dark"
                     description="GitHub theme for VS Code"
+                />
+                <ThemeInfo
+                    name="Dracula"
+                    icon="/dracula.png"
+                    publisher="Dracula Theme"
+                    theme="dracula"
+                    description="Official Dracula Theme. A dark theme for many editors, shells, and more."
                 />
                 <ThemeInfo
                     name="Ayu Dark"
