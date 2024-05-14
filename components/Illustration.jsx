@@ -1,7 +1,7 @@
 function Illustration(props) {
     const styles = {
         img: {
-            "--s": "10px", // control the size
+            "--s": "15px", // control the size
             padding: "var(--s)",
             border: "calc(2*var(--s)) solid #0000",
             outline: "1px solid #000",
@@ -10,10 +10,10 @@ function Illustration(props) {
                 "conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0)",
             width: "80%",
             marginTop: "10px",
-            marginLeft: "20px",
+            marginLeft: "10px",
         },
         body: {
-            display: "grid",
+            display: "flex",
             placeContent: "center",
         },
     };
