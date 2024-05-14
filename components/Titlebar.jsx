@@ -14,6 +14,7 @@ const Titlebar = () => {
             <div className={styles.items}>
                 <p>File</p>
                 <p>Edit</p>
+                <p>Selection</p>
                 <p>View</p>
                 <p>Go</p>
                 <p>Run</p>
