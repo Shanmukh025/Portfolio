@@ -13,7 +13,6 @@ const ThemeInfo = ({ icon, name, publisher, theme }) => {
             <div className={styles.info}>
                 <div>
                     <h3>{name}</h3>
-                    <h5>{publisher}</h5>
                 </div>
                 <button onClick={() => setTheme(theme)}>
                     Set Portfolio Theme
