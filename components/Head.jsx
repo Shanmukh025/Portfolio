@@ -6,11 +6,11 @@ const CustomHead = ({ title }) => {
             <title>{title}</title>
             <meta
                 name="description"
-                content="Shanmukh Anaparthi is an inspireds full stack web developer building websites and applications you'd love to use"
+                content="Shanmukh Anaparthi is an inspired full stack web developer building websites and applications you'd love to use"
             />
             <meta
                 name="keywords"
-                content="shanmukh anaparthi, shanmukh, anaparthi, developer portfolio, shanmukh web developer, shanmukh devops, devops, mern stack,  portfolio, vscode-portfolio"
+                content="shanmukh anaparthi, shanmukh, anaparthi, developer portfolio, shanmukh web developer, shanmukh devops engineer, devops, mern stack,  portfolio, vscode"
             />
             <meta
                 property="og:title"
