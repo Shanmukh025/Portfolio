@@ -79,6 +79,7 @@
 }
 
 .button {
+    font-family: "Inter";
     background: var(--accent-color);
     font-size: 1.25rem;
     padding: 0.5rem 1rem;
@@ -90,6 +91,7 @@
 }
 
 .outlined {
+    font-family: "Inter";
     font-size: 1.25rem;
     padding: 0.5rem 1rem;
     color: #eee;
