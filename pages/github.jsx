@@ -1,4 +1,3 @@
-import RepoCard from "../components/RepoCard";
 import styles from "../styles/GithubPage.module.css";
 
 const GithubPage = ({ repos, user }) => {
@@ -14,71 +13,43 @@ const GithubPage = ({ repos, user }) => {
         <>
             <div className={styles.user}>
                 <div>
-                    {/* <Image
-                        src={user.avatar_url}
+                    <img
+                        src="https://userpic.codeforces.org/2419769/title/51e36fd8a782a23e.jpg"
                         className={styles.avatar}
-                        alt={user.login}
                         width={50}
                         height={50}
-                    /> */}
-                    {/* <h3 className={styles.username}>{user.login}</h3> */}
+                    />
                 </div>
                 <div>
-                    <h3>{user.public_repos}A Little Bit About Myself...</h3>
+                    <h3>A Little Bit About Myself.</h3>
                 </div>
-                {/* <div>
-                    <h3>{user.followers} </h3>
-                </div> */}
             </div>
-            <div className={styles.container}>
-                {repos.map((repo) => (
-                    <RepoCard key={repo.id} repo={repo} />
-                ))}
-            </div>
-            {/* <div className={styles.contributions}>
-                <GitHubCalendar
-                    username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
-                    theme={theme}
-                    hideColorLegend
-                    hideMonthLabels
+            <div className={styles.para1}>
+                Hello!
+                <img
+                    src="https://emojiisland.com/cdn/shop/products/Waving_Hand_Sign_Emoji_Icon_ios10_large.png?v=1571606113"
+                    height={20}
+                    width={20}
                 />
-            </div> */}
+            </div>
+            <div className={styles.para1}>
+                This is <a>Shanmukh</a>
+                , an upcoming software engineer dedicated in creating innovative
+                software, studying Computer Science and Engineering @ KL
+                University.
+                <img
+                    src="https://imgur.com/aDM9Roc.png"
+                    height={25}
+                    width={25}
+                />
+            </div>
         </>
     );
 };
 
 export async function getStaticProps() {
-    const userRes = await fetch(
-        `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`,
-        {
-            headers: {
-                Authorization: `token ${process.env.GITHUB_API_KEY}`,
-            },
-        }
-    );
-    const user = await userRes.json();
-
-    const repoRes = await fetch(
-        `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100`,
-        {
-            headers: {
-                Authorization: `token ${process.env.GITHUB_API_KEY}`,
-            },
-        }
-    );
-    let repos = await repoRes.json();
-    if (Array.isArray(repos)) {
-        repos = repos
-            .sort((a, b) => b.stargazers_count - a.stargazers_count)
-            .slice(0, 6);
-    } else {
-        // Handle the case where repos is not an array
-        repos = []; // Or any other appropriate action
-    }
-
     return {
-        props: { title: "GitHub", repos, user },
-        revalidate: 10,
+        props: { title: "About" },
     };
 }
 

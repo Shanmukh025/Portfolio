@@ -45,6 +45,17 @@
     width: 100% !important;
 }
 
+.para1 {
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.03em;
+}
+
+.para1 a {
+    font-weight: 900;
+}
+
 @media screen and (max-width: 900px) {
     .user h3 {
         font-size: 1rem;

@@ -99,7 +99,7 @@ const AboutPage = () => {
                         alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>Solution Architect Assoc.</h2>
+                        <h2>Solutions Architect Assoc.</h2>
                         <h3>Oracle Cloud</h3>
                         <br />
                         <div className={styles.cta}>
