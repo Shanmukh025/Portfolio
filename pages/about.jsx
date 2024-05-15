@@ -36,7 +36,7 @@ const AboutPage = () => {
                         alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>Certified Enterprise Application Devloper</h2>
+                        <h2>Cert. Enterprise Appln. Developer</h2>
                         <h3>RedHat</h3>
                         <br />
                         <div className={styles.cta}>
@@ -78,7 +78,7 @@ const AboutPage = () => {
                         alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>Azure Fundamentals (AZ-900)</h2>
+                        <h2>(AZ-900) Azure Fundamentals</h2>
                         <h3>Microsoft</h3>
                         <br />
                         <div className={styles.cta}>
@@ -99,7 +99,7 @@ const AboutPage = () => {
                         alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>Solutions Architect Associate</h2>
+                        <h2>Solution Architect Assoc.</h2>
                         <h3>Oracle Cloud</h3>
                         <br />
                         <div className={styles.cta}>
