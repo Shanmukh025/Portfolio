@@ -5,7 +5,7 @@ const AboutPage = () => {
         <>
             <h2>
                 <a target="_blank" rel="noopener" className={styles.underline}>
-                    Some Certifications
+                    My Certifications
                 </a>
             </h2>
             <div className={styles.container}>

@@ -5,7 +5,7 @@
     display: grid;
     font-family: "JetBrains Mono";
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .card {
@@ -15,8 +15,7 @@
     border-radius: 20px;
     cursor: pointer;
     width: 100%;
-    max-width: 400px; /* Ensure a maximum width for larger screens */
-    padding: 20px; /* Add some padding for better spacing inside the card */
+    max-width: 350px; /* Ensure a maximum width for larger screens */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .card img {
