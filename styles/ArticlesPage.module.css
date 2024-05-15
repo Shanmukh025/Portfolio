@@ -4,7 +4,7 @@
     margin: 1.5rem 0;
     display: grid;
     font-family: "JetBrains Mono";
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
 }
 
