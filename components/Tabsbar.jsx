@@ -18,6 +18,7 @@ const Tabsbar = () => {
             />
             <Tab icon="/css_icon.svg" filename="Contact.css" path="/contact" />
             <Tab icon="/markdown_icon.svg" filename="About.md" path="/github" />
+            <Tab icon="/txt_icon.svg" filename="Themes.txt" path="/settings" />
         </div>
     );
 };

@@ -35,6 +35,11 @@ const explorerItems = [
         path: "/github",
         icon: "markdown_icon.svg",
     },
+    {
+        name: "Themes.txt",
+        path: "/settings",
+        icon: "txt_icon.svg",
+    },
 ];
 
 const Explorer = () => {
