@@ -4,7 +4,7 @@
     background: var(--explorer-bg);
     width: 18vw;
     color: rgb(225, 228, 232);
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
     border-right: 1px solid var(--explorer-border);
 }
 
@@ -15,12 +15,11 @@
     font-size: 1rem;
     margin-bottom: 0.8rem;
 }
-
 .heading {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8rem;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     display: flex;
     align-items: center;
     cursor: pointer;
