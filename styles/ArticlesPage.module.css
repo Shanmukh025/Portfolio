@@ -5,7 +5,7 @@
     display: grid;
     font-family: "JetBrains Mono";
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .card {

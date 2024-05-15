@@ -3,7 +3,7 @@ import styles from "../styles/ContactCode.module.css";
 
 const contactItems = [
     {
-        social: "email",
+        social: "mail",
         link: "shanmukh2564@gmail.com",
         href: "mailto:shanmukh2564@gmail.com",
     },
