@@ -34,19 +34,27 @@ const GithubPage = ({ repos, user }) => {
             </div>
             <div className={styles.para1}>
                 This is <a>A.Shanmukh</a>, a DevOps Engineer and an upcoming
-                Software Engineer dedicated in developing Products.
+                Software Engineer, dedicated in developing Products.
             </div>
             <br />
             <div className={styles.bgpara}>
-                <div className={styles.bgparaheading}>Background</div>
+                <div className={styles.bgparaheading}>
+                    Background
+                    <img
+                        src="https://em-content.zobj.net/source/apple/391/graduation-cap_1f393.png"
+                        height={25}
+                        width={25}
+                        style={{ marginLeft: "4px" }}
+                    />
+                </div>
                 I'm currently Computer Science student @ <a>KL University</a>,
                 building things for the web. I worked as an Android Development
                 Lead at <a>Google Developer Student Club</a>, of my college
                 after organising some awesome technical bootcamps. I'm also
                 selected as a <a>HackerEarth Campus Ambassador</a>. As a
-                software engineer, I enjoy bridging the gap between engineering
-                and a problem — combining my technical skills with a comprising
-                solution to create a beautiful product.
+                software engineer, I enjoy bridging the gap between my
+                engineering and a problem — combining my technical skills with a
+                comprising solution to create a beautiful product.
             </div>
             <br />
             <div className={styles.skills}>
@@ -56,6 +64,7 @@ const GithubPage = ({ repos, user }) => {
                         src="https://imgur.com/aDM9Roc.png"
                         height={25}
                         width={25}
+                        style={{ marginLeft: "4px" }}
                     />
                 </div>
                 Languages:{" "}
@@ -67,6 +76,21 @@ const GithubPage = ({ repos, user }) => {
                 <br />
                 Tools:{" "}
                 <a>Git, Bash, AWS, Azure, Postman, Selenium, Photoshop</a>.
+            </div>
+            <br />
+            <div className={styles.skills}>
+                <div className={styles.bgparaheading}>
+                    Achievements
+                    <img
+                        src="https://em-content.zobj.net/source/apple/391/sports-medal_1f3c5.png"
+                        height={20}
+                        width={25}
+                    />
+                </div>
+                <ul>
+                    <li>3-Star CodeChef</li>
+                    <li>5-Star Hackerrank</li>
+                </ul>
             </div>
         </>
     );
