@@ -6,11 +6,11 @@
     align-items: center;
     background: var(--article-bg);
     padding: 1.5rem 1rem;
-    height: 100px;
+    height: 80px;
     margin-bottom: 1.5rem;
 }
 
-.user > div {
+/* .user > div {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -19,7 +19,7 @@
     border-right: 2px solid var(--accent-color);
     padding: 0 1rem;
     height: 100%;
-}
+} */
 
 .user > div:last-child {
     border-right: none;
@@ -38,7 +38,9 @@
 }
 
 .title {
-    margin-bottom: 1.5rem;
+    color: var(--accent-color);
+    font-size: 1.3rem;
+    font-weight: 1000;
 }
 
 .contributions article {
@@ -46,7 +48,8 @@
 }
 
 .para1 {
-    width: 80%;
+    color: rgb(213, 213, 210);
+    width: 60%;
     font-size: 1.3rem;
     font-weight: 200;
     margin-bottom: 1.5rem;
@@ -55,14 +58,70 @@
     margin-right: auto;
     /* text-align: center; */
 }
-
-.para1 a {
-    font-weight: 900;
+.bgpara {
+    color: rgb(213, 213, 210);
+    width: 60%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.03em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.bgparaheading {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    font-weight: 1000;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills {
+    width: 60%;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.03em;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40px;
+}
+
+.skillsheading {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    font-weight: 1000;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para1 a {
+    color: white;
+    font-weight: 800;
+}
+.bgpara a {
+    color: white;
+    font-weight: 600;
+}
+.skills a {
+    color: white;
+    font-weight: 600;
+}
 @media screen and (max-width: 900px) {
     .user h3 {
-        font-size: 1rem;
+        font-size: 50px;
+    }
+    .para1 {
+        width: 90%;
+    }
+    .bgpara {
+        width: 90%;
+    }
+    .skills {
+        width: 90%;
     }
 }
 

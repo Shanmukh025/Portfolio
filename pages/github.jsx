@@ -20,7 +20,7 @@ const GithubPage = ({ repos, user }) => {
                         height={50}
                     /> */}
                 </div>
-                <div>
+                <div className={styles.title}>
                     <h3>A Little Bit About Myself.</h3>
                 </div>
             </div>
@@ -33,14 +33,40 @@ const GithubPage = ({ repos, user }) => {
                 />
             </div>
             <div className={styles.para1}>
-                This is <a>A.Shanmukh</a>, a DevOps Enthusiast and a Software
-                Engineer dedicated in developing new Solutions,
-                <a> studying @ KL University.</a>
-                <img
-                    src="https://imgur.com/aDM9Roc.png"
-                    height={25}
-                    width={25}
-                />
+                This is <a>A.Shanmukh</a>, a DevOps Engineer and an upcoming
+                Software Engineer dedicated in developing Products.
+            </div>
+            <br />
+            <div className={styles.bgpara}>
+                <div className={styles.bgparaheading}>Background</div>
+                I'm currently Computer Science student @ <a>KL University</a>,
+                building things for the web. I worked as an Android Development
+                Lead at <a>Google Developer Student Club</a>, of my college
+                after organising some awesome technical bootcamps. I'm also
+                selected as a <a>HackerEarth Campus Ambassador</a>. As a
+                software engineer, I enjoy bridging the gap between engineering
+                and a problem — combining my technical skills with a comprising
+                solution to create a beautiful product.
+            </div>
+            <br />
+            <div className={styles.skills}>
+                <div className={styles.bgparaheading}>
+                    Skills
+                    <img
+                        src="https://imgur.com/aDM9Roc.png"
+                        height={25}
+                        width={25}
+                    />
+                </div>
+                Languages:{" "}
+                <a>Python, Java, SQL, JavaScript, C#, Kotlin, Dart</a>.
+                <br />
+                Frameworks: <a>MERN, Django, Next, .NET, Springboot, Flutter</a>
+                .<br />
+                DevOps : <a>Jenkins, Ansible, Terraform, Docker, Kubernetes</a>.
+                <br />
+                Tools:{" "}
+                <a>Git, Bash, AWS, Azure, Postman, Selenium, Photoshop</a>.
             </div>
         </>
     );

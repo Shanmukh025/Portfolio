@@ -37,9 +37,9 @@ export default function HomePage() {
                         <Link href="/projects">
                             <button className={styles.button}>View Work</button>
                         </Link>
-                        <Link href="/contact">
+                        <Link href="/github">
                             <button className={styles.outlined}>
-                                Contact Me
+                                About Me
                             </button>
                         </Link>
                     </div>
