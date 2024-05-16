@@ -72,7 +72,7 @@ const GithubPage = ({ repos, user }) => {
                 <br />
                 Frameworks: <a>MERN, Django, Next, .NET, Springboot, Flutter</a>
                 .<br />
-                DevOps : <a>Jenkins, Ansible, Terraform, Docker, Kubernetes</a>.
+                DevOps: <a>Jenkins, Ansible, Terraform, Docker, Kubernetes</a>.
                 <br />
                 Tools:{" "}
                 <a>Git, Bash, AWS, Azure, Postman, Selenium, Photoshop</a>.
