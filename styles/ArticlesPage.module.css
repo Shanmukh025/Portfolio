@@ -65,13 +65,13 @@
         var(--accent-color) 100%
     );
     background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: 0 88%;
+    background-size: 100% 0.15em;
+    background-position: 0 95%;
     transition: background-size 0.25s ease-in;
 }
 
 .underline:hover {
-    background-size: 100% 88%;
+    background-size: 105% 90%;
 }
 
 .card h2 {
