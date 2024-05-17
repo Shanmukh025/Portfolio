@@ -4,7 +4,7 @@
     "name": "Spark Social Media",
     "image": "https://imgur.com/ae1LOyl.gif",
     "description": "A Social Media App for interacting with posts and messaging friends.",
-    "tags": ["react", "node", "mongodb", "redux", "material-ui"],
+    "tags": ["react", "node", "redux", "mongodb", "material-ui"],
     "source_code": "https://github.com/Shanmukh025/spark",
     "demo": "https://xspark.vercel.app/"
   },
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Netflix Clone",
     "image": "https://imgur.com/sPFSEq4.gif",
-    "description": "A Real-Time Netflix clone using ReactJS.",
+    "description": "A Real-Time Netflix using ReactJS with a very user friendly interface.",
     "tags": ["react", "javascript", "css-modules", "material-ui"],
     "source_code": "https://github.com/Shanmukh025/Netflix",
     "demo": "https://net-flixclone.surge.sh/"
@@ -40,7 +40,7 @@
     "name": "Password Generator",
     "image": "https://imgur.com/OB9GMzm.gif",
     "description": "A Strong and Random Password Generator using ReactJS.",
-    "tags": ["react", "css-modules", "material-ui"],
+    "tags": ["react", "javascript", "css-modules", "material-ui"],
     "source_code": "https://github.com/Shanmukh025/PassGen",
     "demo": "https://shanmukh025.github.io/PassGen/"
   },
