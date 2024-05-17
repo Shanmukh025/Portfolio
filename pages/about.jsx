@@ -32,7 +32,7 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
-                        src="https://shanmukhanaparthi.pythonanywhere.com/static/images/redhatbadge.png"
+                        src="https://images.credly.com/images/ae7dd2bd-1d04-43d9-b148-1ef79ec45129/image.png"
                         alt="cp"
                     />
                     <div className={styles.content}>
