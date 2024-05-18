@@ -26,7 +26,7 @@ export default function HomePage() {
             <div className={styles.container}>
                 <div className={styles.background}>
                     <h1>Shanmukh</h1>
-                    <h1>Anaparthi</h1>
+                    <h1 style={{ marginLeft: "20px" }}>Anaparthi</h1>
                 </div>
                 <div className={styles.foreground}>
                     <div className={styles.content}>
