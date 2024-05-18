@@ -1,20 +1,41 @@
+import React, { useEffect, useState } from "react";
+
 function Illustration(props) {
+    const [imgMarginBottom, setImgMarginBottom] = useState("0");
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth < 1000) {
+                setImgMarginBottom("100%");
+            } else {
+                setImgMarginBottom("-20px");
+            }
+        };
+
+        // Set the margin bottom on initial render
+        handleResize();
+
+        // Add event listener for window resize
+        window.addEventListener("resize", handleResize);
+
+        // Cleanup event listener on component unmount
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     const styles = {
         img: {
-            "--s": "15px", // control the size
-            padding: "var(--s)",
-            border: "calc(2*var(--s)) solid #0000",
-            outline: "1px solid #000",
-            outlineOffset: "calc(-1*var(--s))",
-            background:
-                "conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0)",
-            width: "80%",
-            marginTop: "10px",
-            marginLeft: "10px",
+            boxShadow: `
+                -50px -50px 0 -40px var(--accent-color),
+                50px 50px 0 -40px var(--accent-color)
+            `,
+            height: "45%",
+            width: "90%",
+            marginBottom: imgMarginBottom,
         },
         body: {
-            display: "flex",
-            placeContent: "center",
+            display: "grid",
+            placeItems: "center",
+            height: "100vh",
         },
     };
 
@@ -22,7 +43,7 @@ function Illustration(props) {
         <div style={styles.body}>
             <img
                 style={styles.img}
-                src="https://media.licdn.com/dms/image/D5603AQGDzJDzl-kQiA/profile-displayphoto-shrink_400_400/0/1715671118705?e=1721260800&v=beta&t=RD5BX15CAaADQz3xTfdheHP52wmmeWZybodM6DixgDw"
+                src="https://imgur.com/ZAwL5Kd.png"
                 alt="Avatar"
             />
         </div>
