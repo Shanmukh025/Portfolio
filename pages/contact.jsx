@@ -1,4 +1,5 @@
 import { useState } from "react";
+import axios from "axios";
 import ContactCode from "../components/ContactCode";
 import styles from "../styles/ContactPage.module.css";
 
@@ -10,18 +11,26 @@ const ContactPage = () => {
 
     const submitForm = async (e) => {
         e.preventDefault();
-        console.log(process.env.NEXT_PUBLIC_API_URL);
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
-            method: "POST",
-            body: JSON.stringify({ name, email, subject, message }),
-        });
-        if (res.ok) {
-            alert("Your response has been received!");
-            setName("");
-            setEmail("");
-            setSubject("");
-            setMessage("");
-        } else {
+        try {
+            const res = await axios.post(
+                process.env.GOOGLE_SCRIPT_WEB_APP_URL,
+                {
+                    name,
+                    email,
+                    subject,
+                    message,
+                }
+            );
+            if (res.data.status === "success") {
+                alert("Your response has been received!");
+                setName("");
+                setEmail("");
+                setSubject("");
+                setMessage("");
+            } else {
+                throw new Error("Submission failed");
+            }
+        } catch (error) {
             alert("There was an error. Please try again in a while.");
         }
     };
@@ -60,7 +69,7 @@ const ContactPage = () => {
                         </div>
                     </div>
                     <div>
-                        <label htmlFor="name">Subject</label>
+                        <label htmlFor="subject">Subject</label>
                         <input
                             type="text"
                             name="subject"
