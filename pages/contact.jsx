@@ -1,5 +1,4 @@
 import { useState } from "react";
-import axios from "axios";
 import ContactCode from "../components/ContactCode";
 import styles from "../styles/ContactPage.module.css";
 
