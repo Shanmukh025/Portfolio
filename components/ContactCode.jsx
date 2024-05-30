@@ -62,7 +62,7 @@ const ContactCode = () => {
             </p>
             {contactItems.map((item, index) => (
                 <p className={styles.line} key={index}>
-                    &nbsp;&nbsp;&nbsp;"{item.social}":{" "}
+                    &nbsp;&nbsp;&nbsp;{item.social}:{" "}
                     <a
                         href={item.href}
                         target="_blank"
