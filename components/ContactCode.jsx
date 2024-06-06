@@ -15,7 +15,7 @@ const contactItems = [
     {
         social: "linkedin",
         link: "Shanmukh Anaparthi",
-        href: "https://www.linkedin.com/in/shanmukhanaparthi/",
+        href: "https://www.linkedin.com/in/anaparthishanmukh/",
     },
     {
         social: "leetcode",
