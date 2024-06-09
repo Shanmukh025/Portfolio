@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useState } from "react";
 import ContactCode from "../components/ContactCode";
 import styles from "../styles/ContactPage.module.css";
@@ -12,15 +13,20 @@ const ContactPage = () => {
         e.preventDefault();
         try {
             const res = await axios.post(
-                process.env.GOOGLE_SCRIPT_WEB_APP_URL,
+                "https://formspree.io/f/mvoeepwn",
                 {
                     name,
                     email,
                     subject,
                     message,
+                },
+                {
+                    headers: {
+                        Accept: "application/json",
+                    },
                 }
             );
-            if (res.data.status === "success") {
+            if (res.data.ok) {
                 alert("Your response has been received!");
                 setName("");
                 setEmail("");
