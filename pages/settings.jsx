@@ -7,13 +7,6 @@ const SettingsPage = () => {
             <h2>Themes Library</h2>
             <div className={styles.container}>
                 <ThemeInfo
-                    name="GitHub Dark"
-                    icon="/github-dark.png"
-                    publisher="GitHub"
-                    theme="github-dark"
-                    description="GitHub theme for VS Code"
-                />
-                <ThemeInfo
                     name="Dracula"
                     icon="/dracula.png"
                     publisher="Dracula Theme"
@@ -21,17 +14,24 @@ const SettingsPage = () => {
                     description="Official Dracula Theme. A dark theme for many editors, shells, and more."
                 />
                 <ThemeInfo
+                    name="GitHub Dark"
+                    icon="/github-dark.png"
+                    publisher="GitHub"
+                    theme="github-dark"
+                    description="GitHub theme for VS Code"
+                />
+                <ThemeInfo
                     name="Ayu Dark"
                     icon="/ayu.png"
                     publisher="teabyii"
-                    theme="ayu-dark"
+                    theme="night-owl"
                     description="A simple theme with bright colors."
                 />
                 <ThemeInfo
                     name="Nord"
                     icon="/nord.png"
                     publisher="arcticicestudio"
-                    theme="nord"
+                    theme="ayu-dark"
                     description="An arctic, north-bluish clean and elegant Visual Studio Code theme."
                 />
             </div>

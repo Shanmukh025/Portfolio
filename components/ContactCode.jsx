@@ -15,7 +15,7 @@ const contactItems = [
     {
         social: "linkedin",
         link: "Shanmukh Anaparthi",
-        href: "https://www.linkedin.com/in/shanmukhanaparthi/",
+        href: "https://www.linkedin.com/in/anaparthishanmukh/",
     },
     {
         social: "leetcode",
@@ -62,7 +62,7 @@ const ContactCode = () => {
             </p>
             {contactItems.map((item, index) => (
                 <p className={styles.line} key={index}>
-                    &nbsp;&nbsp;&nbsp;"{item.social}":{" "}
+                    &nbsp;&nbsp;&nbsp;{item.social}:{" "}
                     <a
                         href={item.href}
                         target="_blank"
