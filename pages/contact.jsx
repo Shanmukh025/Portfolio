@@ -27,7 +27,7 @@ const ContactPage = () => {
                 }
             );
             if (res.data.ok) {
-                alert("Your response has been received!");
+                alert("Your message has been sent! Thank You.");
                 setName("");
                 setEmail("");
                 setSubject("");
@@ -36,7 +36,7 @@ const ContactPage = () => {
                 throw new Error("Submission failed");
             }
         } catch (error) {
-            alert("There was an error. Please try again in a while.");
+            alert("There was an error! Please try again.");
         }
     };
 
