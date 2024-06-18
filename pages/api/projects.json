@@ -10,6 +10,15 @@
   },
   {
     "id": 2,
+    "name": "Smart List",
+    "image": "https://imgur.com/6a92DxO.gif",
+    "description": "A full-stack To-Do List App using Django and Python to create and organize tasks.",
+    "tags": ["django", "python", "css-modules", "mysql"],
+    "source_code": "https://github.com/Shanmukh025/smartlist",
+    "demo": "http://smartlist.pythonanywhere.com/"
+  },
+  {
+    "id": 3,
     "name": "Netflix Clone",
     "image": "https://imgur.com/sPFSEq4.gif",
     "description": "A Real-Time Netflix using ReactJS with a very user friendly interface.",
@@ -18,7 +27,7 @@
     "demo": "https://net-flixclone.surge.sh/"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "GDSC KL University",
     "image": "https://imgur.com/oM4SCYe.gif",
     "description": "I designed and developed the Official Website for GDSC KL University.",
@@ -27,7 +36,7 @@
     "demo": "https://gdscklef.netlify.app/"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Fuse NFT Marketplace",
     "image": "https://imgur.com/MADWfUq.gif",
     "description": "A Real-Time NFT Marketplace using BlockChain Technology.",
@@ -36,7 +45,7 @@
     "demo": "https://fusenft.netlify.app/"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Password Generator",
     "image": "https://imgur.com/OB9GMzm.gif",
     "description": "A Strong and Random Password Generator using ReactJS.",
@@ -45,7 +54,7 @@
     "demo": "https://shanmukh025.github.io/PassGen/"
   },
   {
-    "id": 5,
+    "id": 7,
     "name": "Portfolio v2",
     "image": "https://imgur.com/UdkO2aP.gif",
     "description": "My Portfolio v2 using Django and Python.",
@@ -54,7 +63,7 @@
     "demo": "https://shanmukhanaparthi.pythonanywhere.com/"
   },
   {
-    "id": 6,
+    "id": 8,
     "name": "Unified Loan System",
     "image": "https://imgur.com/I4R8a0I.gif",
     "description": "An Unified Loan Management System using Django and Python.",

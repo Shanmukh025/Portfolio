@@ -116,3 +116,9 @@
 .django:hover {
     background: rgba(131, 205, 41, 0.25);
 }
+.mysql {
+    border: 0.1rem solid rgb(131, 205, 41);
+}
+.mysql:hover {
+    background: rgba(131, 205, 41, 0.25);
+}
