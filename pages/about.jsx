@@ -25,7 +25,7 @@ const AboutPage = () => {
                                 rel="noopener noreferrer"
                                 className={styles.underline}
                             >
-                                View Credential
+                                Credential
                             </a>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ const AboutPage = () => {
                                 rel="noopener noreferrer"
                                 className={styles.underline}
                             >
-                                View Credential
+                                Credential
                             </a>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const AboutPage = () => {
                                 rel="noopener noreferrer"
                                 className={styles.underline}
                             >
-                                View Credential
+                                Credential
                             </a>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ const AboutPage = () => {
                                 rel="noopener noreferrer"
                                 className={styles.underline}
                             >
-                                View Credential
+                                Credential
                             </a>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ const AboutPage = () => {
                                 rel="noopener noreferrer"
                                 className={styles.underline}
                             >
-                                View Credential
+                                Credential
                             </a>
                         </div>
                     </div>
