@@ -9,6 +9,7 @@ const ProjectCard = ({ project }) => {
                 height={300}
                 width={600}
                 alt={project.name}
+                href={project.demo}
             />
             <div className={styles.content}>
                 <h3>{project.name}</h3>
