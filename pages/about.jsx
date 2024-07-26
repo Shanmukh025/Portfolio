@@ -20,7 +20,7 @@ const AboutPage = () => {
                         <br />
                         <div className={styles.cta}>
                             <a
-                                // href=""
+                                href="https://cp.certmetrics.com/amazon/en/public/verify/credential/f23c515599f8409fa53c86eb03b59c32"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.underline}
