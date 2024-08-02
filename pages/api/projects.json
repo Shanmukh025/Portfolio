@@ -15,7 +15,7 @@
     "description": "A full-stack To-Do List App using Django and Python to create and organize tasks.",
     "tags": ["django", "python", "css-modules", "mysql"],
     "source_code": "https://github.com/Shanmukh025/smartlist",
-    "demo": "http://smartlist.pythonanywhere.com/"
+    "demo": "http://smartlist.pythonanywhere.com"
   },
   {
     "id": 3,
