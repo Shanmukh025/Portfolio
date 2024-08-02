@@ -11,6 +11,27 @@ const AboutPage = () => {
             <div className={styles.container}>
                 <div className={styles.card}>
                     <img
+                        src="https://images.credly.com/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png"
+                        alt="da"
+                    />
+                    <div className={styles.content}>
+                        <h2>Developer Associate</h2>
+                        <h3>Amazon Web Services</h3>
+                        <br />
+                        <div className={styles.cta}>
+                            <a
+                                href="https://cp.certmetrics.com/amazon/en/public/verify/credential/eacd9999d87c4eb5a036f771432b1567"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.underline}
+                            >
+                                Credential
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.card}>
+                    <img
                         src="https://www.w3schools.com/aws/images/awscert.png"
                         alt="cp"
                     />
@@ -32,16 +53,16 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
-                        src="https://images.credly.com/images/ae7dd2bd-1d04-43d9-b148-1ef79ec45129/image.png"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQxqcv0iJtEnz7JBzZy6MKgH8Y_iuFcgo9b_D6IBNwA&s"
                         alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>Cert. Enterprise Appln. Developer</h2>
-                        <h3>RedHat</h3>
+                        <h2>Azure Developer Associate(AZ-204)</h2>
+                        <h3>Microsoft</h3>
                         <br />
                         <div className={styles.cta}>
                             <a
-                                href="https://www.credly.com/badges/6c35a5a2-6d20-44aa-af42-280893da90f9/public_url"
+                                href="https://learn.microsoft.com/en-us/users/Shanmukh-Anaparthi/credentials/328876EE42DC8DE7"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.underline}
@@ -53,16 +74,16 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQxqcv0iJtEnz7JBzZy6MKgH8Y_iuFcgo9b_D6IBNwA&s"
+                        src="https://images.credly.com/images/ae7dd2bd-1d04-43d9-b148-1ef79ec45129/image.png"
                         alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>Azure Developer Associate(AZ-204)</h2>
-                        <h3>Microsoft</h3>
+                        <h2>Cert. Enterprise Appln. Developer</h2>
+                        <h3>RedHat</h3>
                         <br />
                         <div className={styles.cta}>
                             <a
-                                href="https://learn.microsoft.com/en-us/users/Shanmukh-Anaparthi/credentials/328876EE42DC8DE7"
+                                href="https://www.credly.com/badges/6c35a5a2-6d20-44aa-af42-280893da90f9/public_url"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.underline}
