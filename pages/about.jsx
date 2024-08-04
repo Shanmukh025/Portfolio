@@ -15,7 +15,7 @@ const AboutPage = () => {
                         alt="da"
                     />
                     <div className={styles.content}>
-                        <h2>Developer Associate</h2>
+                        <h2>AWS Developer Associate</h2>
                         <h3>Amazon Web Services</h3>
                         <br />
                         <div className={styles.cta}>
@@ -36,7 +36,7 @@ const AboutPage = () => {
                         alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>Certified Cloud Practitioner</h2>
+                        <h2>AWS Cloud Practitioner</h2>
                         <h3>Amazon Web Services</h3>
                         <br />
                         <div className={styles.cta}>
@@ -53,32 +53,11 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQxqcv0iJtEnz7JBzZy6MKgH8Y_iuFcgo9b_D6IBNwA&s"
-                        alt="cp"
-                    />
-                    <div className={styles.content}>
-                        <h2>Azure Developer Associate(AZ-204)</h2>
-                        <h3>Microsoft</h3>
-                        <br />
-                        <div className={styles.cta}>
-                            <a
-                                href="https://learn.microsoft.com/en-us/users/Shanmukh-Anaparthi/credentials/328876EE42DC8DE7"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className={styles.underline}
-                            >
-                                Credential
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.card}>
-                    <img
                         src="https://images.credly.com/images/ae7dd2bd-1d04-43d9-b148-1ef79ec45129/image.png"
                         alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>Cert. Enterprise Appln. Developer</h2>
+                        <h2>Enterprise Appln. Developer</h2>
                         <h3>RedHat</h3>
                         <br />
                         <div className={styles.cta}>
@@ -95,7 +74,28 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU3cSI_Dsx2pWlonpWJpbwUC-Eg44Y-FO1wGGTZKd1Hg&s"
+                        src="https://images.credly.com/images/92e0618b-8002-4868-9e88-794a33aeb3b5/azure-developer-associate-600x600.png"
+                        alt="cp"
+                    />
+                    <div className={styles.content}>
+                        <h2>Azure Developer (AZ-204)</h2>
+                        <h3>Microsoft</h3>
+                        <br />
+                        <div className={styles.cta}>
+                            <a
+                                href="https://learn.microsoft.com/en-us/users/Shanmukh-Anaparthi/credentials/328876EE42DC8DE7"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.underline}
+                            >
+                                Credential
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.card}>
+                    <img
+                        src="https://media.licdn.com/dms/image/C4E12AQH-e2WPGP0YXQ/article-cover_image-shrink_600_2000/0/1649839178239?e=2147483647&v=beta&t=5uPmguARjr_MMdIw3QyUjtH9RbZQ8vTKuezgHQ_SFTc"
                         alt="cp"
                     />
                     <div className={styles.content}>
@@ -120,8 +120,8 @@ const AboutPage = () => {
                         alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>Solutions Architect Assoc.</h2>
-                        <h3>Oracle Cloud</h3>
+                        <h2>OCI Architect Associate</h2>
+                        <h3>Oracle</h3>
                         <br />
                         <div className={styles.cta}>
                             <a
@@ -141,7 +141,7 @@ const AboutPage = () => {
                         alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>All Coursera Certifications</h2>
+                        <h2>Other Certifications</h2>
                         <h3>Coursera</h3>
                         <br />
                         <div className={styles.cta}>
