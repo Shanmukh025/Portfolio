@@ -65,10 +65,11 @@ const ArticlesPage = ({ articles }) => {
                             As a HackerEarth Campus Ambassador, I spearheaded
                             coding competitions, hackathons, and workshops to
                             promote a culture of innovation and coding. I also
-                            engaged with the hackerearth community to enhance
-                            their skills and good learning environment.connected
-                            students with industry experts for career
-                            development.
+                            engaged with the HackerEarth community to enhance
+                            their skills and foster a good learning environment.
+                            Additionally, I connected students with industry
+                            experts for career development, ensuring they are
+                            well-prepared for dynamic tech landscape.
                         </p>
                         <br />
                         <div className={styles.cta}>
