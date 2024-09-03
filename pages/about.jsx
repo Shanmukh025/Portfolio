@@ -53,16 +53,16 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
-                        src="https://images.credly.com/images/ae7dd2bd-1d04-43d9-b148-1ef79ec45129/image.png"
-                        alt="cp"
+                        src="https://miro.medium.com/v2/resize:fit:1200/0*-gPHnNDDTHOtxYkX"
+                        alt="javase"
                     />
                     <div className={styles.content}>
-                        <h2>Enterprise Appln. Developer</h2>
-                        <h3>RedHat</h3>
+                        <h2>Java SE 11 Developer Professional</h2>
+                        <h3>Oracle</h3>
                         <br />
                         <div className={styles.cta}>
                             <a
-                                href="https://www.credly.com/badges/6c35a5a2-6d20-44aa-af42-280893da90f9/public_url"
+                                href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=76BB6AF5313C1F53A93B3FBE9346232D9D872988D484C784F58C3BA5FA1292FE"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.underline}
@@ -95,16 +95,16 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
-                        src="https://media.licdn.com/dms/image/C4E12AQH-e2WPGP0YXQ/article-cover_image-shrink_600_2000/0/1649839178239?e=2147483647&v=beta&t=5uPmguARjr_MMdIw3QyUjtH9RbZQ8vTKuezgHQ_SFTc"
+                        src="https://images.credly.com/images/ae7dd2bd-1d04-43d9-b148-1ef79ec45129/image.png"
                         alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>(AZ-900) Azure Fundamentals</h2>
-                        <h3>Microsoft</h3>
+                        <h2>Enterprise Appln. Developer</h2>
+                        <h3>RedHat</h3>
                         <br />
                         <div className={styles.cta}>
                             <a
-                                href="https://www.credly.com/badges/470bacfb-4dd5-4a99-a51e-98abe842daac/public_url"
+                                href="https://www.credly.com/badges/6c35a5a2-6d20-44aa-af42-280893da90f9/public_url"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.underline}
@@ -116,16 +116,16 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
-                        src="https://miro.medium.com/v2/resize:fit:1200/0*-gPHnNDDTHOtxYkX"
-                        alt="javase"
+                        src="https://media.licdn.com/dms/image/C4E12AQH-e2WPGP0YXQ/article-cover_image-shrink_600_2000/0/1649839178239?e=2147483647&v=beta&t=5uPmguARjr_MMdIw3QyUjtH9RbZQ8vTKuezgHQ_SFTc"
+                        alt="cp"
                     />
                     <div className={styles.content}>
-                        <h2>Java SE 11 Developer Professional</h2>
-                        <h3>Oracle</h3>
+                        <h2>(AZ-900) Azure Fundamentals</h2>
+                        <h3>Microsoft</h3>
                         <br />
                         <div className={styles.cta}>
                             <a
-                                href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=76BB6AF5313C1F53A93B3FBE9346232D9D872988D484C784F58C3BA5FA1292FE"
+                                href="https://www.credly.com/badges/470bacfb-4dd5-4a99-a51e-98abe842daac/public_url"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.underline}
