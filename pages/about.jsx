@@ -120,7 +120,7 @@ const AboutPage = () => {
                         alt="javase"
                     />
                     <div className={styles.content}>
-                        <h2>Certified Professional: Java SE 11 Developer</h2>
+                        <h2>Java SE 11 Developer Professional</h2>
                         <h3>Oracle</h3>
                         <br />
                         <div className={styles.cta}>
