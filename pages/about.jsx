@@ -116,6 +116,27 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
+                        src="https://miro.medium.com/v2/resize:fit:1200/0*-gPHnNDDTHOtxYkX"
+                        alt="javase"
+                    />
+                    <div className={styles.content}>
+                        <h2>Certified Professional: Java SE 11 Developer</h2>
+                        <h3>Oracle</h3>
+                        <br />
+                        <div className={styles.cta}>
+                            <a
+                                href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=76BB6AF5313C1F53A93B3FBE9346232D9D872988D484C784F58C3BA5FA1292FE"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.underline}
+                            >
+                                Credential
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.card}>
+                    <img
                         src="https://images.credly.com/images/9819ade4-8c28-4f2e-8c19-eac82857b71f/1072-21_Oracle_Cloud_Infrastructure_Architect.png"
                         alt="cp"
                     />
