@@ -36,10 +36,10 @@
     background: rgba(118, 74, 188, 0.25);
 }
 
-.razorpay {
+.gemini {
     border: 0.1rem solid rgb(82, 143, 240);
 }
-.razorpay:hover {
+.gemini:hover {
     background: rgba(82, 143, 240, 0.25);
 }
 
