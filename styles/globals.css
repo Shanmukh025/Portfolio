@@ -57,10 +57,10 @@
     background: rgb(0, 209, 178, 0.25);
 }
 
-.next {
+.nextjs {
     border: 2px solid rgb(0, 112, 243);
 }
-.next:hover {
+.nextjs:hover {
     background: rgba(0, 112, 243, 0.25);
 }
 
@@ -121,4 +121,22 @@
 }
 .mysql:hover {
     background: rgba(131, 205, 41, 0.25);
+}
+.tailwind {
+    border: 0.1rem solid rgb(131, 205, 41);
+}
+.tailwind:hover {
+    background: rgba(131, 205, 41, 0.25);
+}
+.firebase {
+    border: 0.1rem solid rgb(255, 87, 34);
+}
+.firebase:hover {
+    background: rgba(255, 87, 34, 0.25);
+}
+.replicate {
+    border: 0.1rem solid rgb(118, 74, 188);
+}
+.replicate:hover {
+    background: rgba(118, 74, 188, 0.25);
 }
