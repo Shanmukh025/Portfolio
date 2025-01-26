@@ -13,7 +13,7 @@
     "name": "LogoAI",
     "image": "https://imgur.com/x.gif",
     "description": "Logo Generator with Prompt using AI.",
-    "tags": ["nextjs", "tailwind", "firebase", "gemini", "replicate"],
+    "tags": ["nextjs", "tailwind", "gemini", "firebase", "replicate"],
     "source_code": "https://github.com/Shanmukh025/LogoAI",
     "demo": "https://logoai-gen.vercel.app/"
   },
