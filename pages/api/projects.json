@@ -15,7 +15,7 @@
     "description": "Logo Generator with Prompt using AI.",
     "tags": ["nextjs", "tailwind", "gemini", "firebase", "replicate"],
     "source_code": "https://github.com/Shanmukh025/LogoAI",
-    "demo": "https://logoai-gen.vercel.app/"
+    "demo": "https://logoai.onrender.com/"
   },
   {
     "id": 3,
