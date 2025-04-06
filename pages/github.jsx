@@ -84,7 +84,7 @@ const GithubPage = ({ repos, user }) => {
                 <div className={styles.bgparaheading}>
                     Skills
                     <img
-                        src="https://imgur.com/aDM9Roc.png"
+                        src="https://res.cloudinary.com/da94inqw8/image/upload/v1743944880/compman-removebg-preview_fqbmqe.png"
                         height={25}
                         width={25}
                         style={{ marginLeft: "4px" }}
