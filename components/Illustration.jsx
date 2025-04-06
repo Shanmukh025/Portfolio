@@ -43,7 +43,7 @@ function Illustration(props) {
         <div style={styles.body}>
             <img
                 style={styles.img}
-                src="https://imgur.com/ZAwL5Kd.png"
+                src="https://res.cloudinary.com/da94inqw8/image/upload/v1743943940/speaker_rpm6cx.jpg"
                 alt="Avatar"
             />
         </div>
