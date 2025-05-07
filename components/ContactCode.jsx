@@ -24,8 +24,8 @@ const contactItems = [
     },
     {
         social: "codechef",
-        link: "klu2100032087",
-        href: "https://codechef.com/users/klu2100032087",
+        link: "shanmukh025",
+        href: "https://codechef.com/users/shanmukh025",
     },
     {
         social: "hackerrank",
