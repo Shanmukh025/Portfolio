@@ -16,12 +16,18 @@ const ArticlesPage = ({ articles }) => {
                     />
                     <div className={styles.content}>
                         <h2>Tata Consultancy Services</h2>
-                        <h3>System Engineee</h3>
-                        <p>As System Engineer at Tata Consultancy Services, I work as a Data Engineer, developing scalable data pipelines and ETL solutions using Python and SQL. I collaborate with cross-functional teams to transform complex data into actionable insights and support business intelligence initiatives. I contribute to data integration, automation, and performance optimization, ensuring reliable and efficient data-driven solutions across enterprise applications.
+                        <h3>System Engineer</h3>
+                        <p>As System Engineer at Tata Consultancy Services, I work as a Data Engineer, developing scalable data pipelines and ETL solutions using Python and SQL. I contribute to data integration, automation, and performance optimization, ensuring reliable and efficient data-driven solutions across enterprise applications.
                         </p>
                         <br />
                         <div className={styles.cta}>
-                           
+                           <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.underline}
+                            >
+                                2026 - Present
+                            </a>
                         </div>
                     </div>
                 </div>          
