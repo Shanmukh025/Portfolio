@@ -9,7 +9,23 @@ const ArticlesPage = ({ articles }) => {
                 </a>
             </h2>
             <div className={styles.container}>
-                <div className={styles.card}>
+      <div className={styles.card}>
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tata_Consultancy_Services_old_logo.svg/1280px-Tata_Consultancy_Services_old_logo.svg.png?_=20210617123944"
+                        alt="tcs"
+                    />
+                    <div className={styles.content}>
+                        <h2>Tata Consultancy Services</h2>
+                        <h3>System Engineee</h3>
+                        <p>As System Engineer at Tata Consultancy Services, I work as a Data Engineer, developing scalable data pipelines and ETL solutions using Python and SQL. I collaborate with cross-functional teams to transform complex data into actionable insights and support business intelligence initiatives. I contribute to data integration, automation, and performance optimization, ensuring reliable and efficient data-driven solutions across enterprise applications.
+                        </p>
+                        <br />
+                        <div className={styles.cta}>
+                           
+                        </div>
+                    </div>
+                </div>          
+<div className={styles.card}>
                     <img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKkF3mBXDJY_IztI_AidsDJin2Dw_3tZWbKr35-7Tnnw&s"
                         alt="gdsc"
@@ -80,36 +96,6 @@ const ArticlesPage = ({ articles }) => {
                                 className={styles.underline}
                             >
                                 About
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.card}>
-                    <img
-                        src="https://media.licdn.com/dms/image/D4D12AQEyYaW9huG9FQ/article-cover_image-shrink_720_1280/0/1714116933229?e=2147483647&v=beta&t=PUvg9WmwXrShbZbdgOkMzVjTysJvZprq_lhBvuwYcJM"
-                        alt="aws"
-                    />
-                    <div className={styles.content}>
-                        <h2>Amazon Web Services</h2>
-                        <h3>Cloud Virtual Intern</h3>
-                        <p>
-                            As a Cloud Virtual Intern at AWS, I gained hands-on
-                            experience with cloud technologies, working on
-                            real-world projects to enhance my understanding of
-                            AWS services. I developed and deployed scalable
-                            applications, optimized cloud infrastructure, and
-                            collaborated with a team to solve complex technical
-                            challenges.
-                        </p>
-                        <br />
-                        <div className={styles.cta}>
-                            <a
-                                href="https://shanmukhanaparthi.pythonanywhere.com/static/images/aicte.jpg"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className={styles.underline}
-                            >
-                                Certificate
                             </a>
                         </div>
                     </div>
