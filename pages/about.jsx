@@ -158,7 +158,7 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/1200px-Coursera-Logo_600x600.svg.png"
+                        src="https://storage.ghost.io/c/12/7b/127b828b-bdc2-4972-9cf2-de857df9c324/content/images/size/w2000/format/webp/2024/11/Coursera-Review.webp"
                         alt="cp"
                     />
                     <div className={styles.content}>
