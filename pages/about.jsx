@@ -95,8 +95,8 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
-                        src="https://media.licdn.com/dms/image/C4E12AQH-e2WPGP0YXQ/article-cover_image-shrink_600_2000/0/1649839178239?e=2147483647&v=beta&t=5uPmguARjr_MMdIw3QyUjtH9RbZQ8vTKuezgHQ_SFTc"
-                        alt="cp"
+                        src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
+                        alt="az900"
                     />
                     <div className={styles.content}>
                         <h2>(AZ-900) Azure Fundamentals</h2>
@@ -116,8 +116,8 @@ const AboutPage = () => {
                 </div>
                 <div className={styles.card}>
                     <img
-                        src="https://images.credly.com/images/ae7dd2bd-1d04-43d9-b148-1ef79ec45129/image.png"
-                        alt="cp"
+                        src="https://images.credly.com/size/680x680/images/ee06997f-e8ea-446d-b278-6a0647b90a77/blob"
+                        alt="redhat"
                     />
                     <div className={styles.content}>
                         <h2>Enterprise Appln. Developer</h2>
